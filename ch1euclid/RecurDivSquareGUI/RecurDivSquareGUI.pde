@@ -24,6 +24,8 @@ void draw() {
   }
   if (rec) {
     endRecord();
+    String namePNG = str(numA) + "_" + str(numB) + "_" + str(int(thr)) + ".png";  //PNGの保存ファイル名
+    save(namePNG);
     rec = false;
   }
 }
