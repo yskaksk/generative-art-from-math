@@ -2,3 +2,5 @@
 *.pdf
 *.png
 output/
+images/
+frames/
